@@ -1,0 +1,30 @@
+Source: tuquito-info
+Section: admin
+Priority: optional
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: tuquito-info-gnome
+Architecture: any
+Provides: tuquito-info
+Description: Necessary information about the Tuquito release and edition.
+ Base package. This package is needed by the Tuquito tools and the system to uniquely identify the edition and release of Tuquito you're using and to get information related to it.
+
+Package: tuquito-info-kde
+Architecture: any
+Provides: tuquito-info
+Description: Necessary information about the Tuquito release and edition.
+ Base package. This package is needed by the Tuquito tools and the system to uniquely identify the edition and release of Tuquito you're using and to get information related to it.
+
+Package: tuquito-info-lxde
+Architecture: all
+Provides: tuquito-info
+Description: Necessary information about the Tuquito release and edition.
+ Base package. This package is needed by the Tuquito tools and the system to uniquely identify the edition and release of Tuquito you're using and to get information related to it.
+
+Package: tuquito-info-fluxbox
+Architecture: all
+Provides: tuquito-info
+Description: Necessary information about the Tuquito release and edition.
+ Base package. This package is needed by the Tuquito tools and the system to uniquely identify the edition and release of Tuquito you're using and to get information related to it.
