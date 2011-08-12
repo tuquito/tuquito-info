@@ -3,6 +3,6 @@ CODENAME=pampa
 EDITION="Gnome 64-bit"
 DESCRIPTION="Tuquito 5 Pampa"
 DESKTOP=Gnome
-STATUS=beta
+STATUS=RC
 TOOLKIT=GTK
 GRUB_TITLE=Tuquito 5 64-bit

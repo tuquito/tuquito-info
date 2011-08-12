@@ -3,6 +3,6 @@ CODENAME=pampa
 EDITION="Fluxbox 64-bit"
 DESCRIPTION="Tuquito 5 Fluxbox"
 DESKTOP=Fluxbox
-STATUS=beta
+STATUS=RC
 TOOLKIT=GTK
 GRUB_TITLE=Tuquito 5 Fluxbox
