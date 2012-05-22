@@ -46,22 +46,19 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
-	rm -rf $(CURDIR)/debian/tuquito-info-gnome/*
-	rm -rf $(CURDIR)/debian/tuquito-info-kde/*
-	rm -rf $(CURDIR)/debian/tuquito-info-lxde/*
-	rm -rf $(CURDIR)/debian/tuquito-info-fluxbox/*
+	rm -rf $(CURDIR)/debian/tuquito-info-*
 
-	mkdir -p $(CURDIR)/debian/tuquito-info-gnome
-	cp -r $(CURDIR)/tuquito-info-gnome/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/tuquito-info-gnome/
+	mkdir -p $(CURDIR)/debian/tuquito-info-cinnamon
+	cp -r $(CURDIR)/tuquito-info-cinnamon/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/tuquito-info-cinnamon/
+
+	mkdir -p $(CURDIR)/debian/tuquito-info-mate
+	cp -r $(CURDIR)/tuquito-info-mate/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/tuquito-info-mate/
 
 	mkdir -p $(CURDIR)/debian/tuquito-info-kde
 	cp -r $(CURDIR)/tuquito-info-kde/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/tuquito-info-kde/
 
 	mkdir -p $(CURDIR)/debian/tuquito-info-lxde
-	cp -r $(CURDIR)/tuquito-info-lxde/etc $(CURDIR)/debian/tuquito-info-lxde/
-
-	mkdir -p $(CURDIR)/debian/tuquito-info-fluxbox
-	cp -r $(CURDIR)/tuquito-info-fluxbox/etc $(CURDIR)/debian/tuquito-info-fluxbox/
+	cp -r $(CURDIR)/tuquito-info-lxde/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/tuquito-info-lxde/
 
 # Build architecture-independent files here.
 binary-indep: build install

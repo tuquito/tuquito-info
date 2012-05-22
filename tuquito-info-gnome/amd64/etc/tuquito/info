@@ -1,8 +1,0 @@
-RELEASE=5
-CODENAME=pampa
-EDITION="Gnome 64-bit"
-DESCRIPTION="Tuquito 5 Pampa"
-DESKTOP=Gnome
-STATUS=stable
-TOOLKIT=GTK
-GRUB_TITLE=Tuquito 5 64-bit
