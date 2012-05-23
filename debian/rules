@@ -58,7 +58,7 @@ install: build
 	cp -r $(CURDIR)/tuquito-info-kde/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/tuquito-info-kde/
 
 	mkdir -p $(CURDIR)/debian/tuquito-info-lxde
-	cp -r $(CURDIR)/tuquito-info-lxde/$(DEB_HOST_ARCH)/etc $(CURDIR)/debian/tuquito-info-lxde/
+	cp -r $(CURDIR)/tuquito-info-lxde/etc $(CURDIR)/debian/tuquito-info-lxde/
 
 # Build architecture-independent files here.
 binary-indep: build install

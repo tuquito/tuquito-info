@@ -3,6 +3,6 @@ CODENAME=guarani
 EDITION="Cinnamon 64-bit"
 DESCRIPTION="Tuquito 6 Guaraní"
 DESKTOP=Gnome
-STATUS=stable
+STATUS=beta
 TOOLKIT=GTK
 GRUB_TITLE=Tuquito 6 Cinnamon 64-bit

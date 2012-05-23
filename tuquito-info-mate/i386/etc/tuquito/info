@@ -3,6 +3,6 @@ CODENAME=guarani
 EDITION="MATE 32-bit"
 DESCRIPTION="Tuquito 6 Guaraní"
 DESKTOP=MATE
-STATUS=stable
+STATUS=beta
 TOOLKIT=GTK
 GRUB_TITLE=Tuquito 6 MATE 32-bit
